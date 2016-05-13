@@ -5,13 +5,12 @@ describe("AccountsController Test", function () {
     beforeEach(inject(function(_$controller_){
         $controller = _$controller_;
     }));
-    describe('test add', function () {
+    describe('test add account', function () {
         it("should have a message equal to 'Hello!'", function () {
             var $scope = {};
             var controller = $controller('AccountsController', { $scope: $scope});
             $scope.rows =[];
             $scope.addAccount();
-            console.log('--------> expect: ',expect($scope.rows.length));
             expect($scope.rows.length).to.equal(1);
         });
     });
