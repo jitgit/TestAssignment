@@ -1,0 +1,32 @@
+{
+  "name": "bullsfirst",
+  "version": "0.0.1",
+  "scripts": {
+    "dist": "grunt",
+    "start": "http-server ./dist -p8080 -c-1",
+    "test": "grunt && karma start"
+  },
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5",
+    "chai": "^3.5.0",
+    "grunt": "*",
+    "grunt-browserify": "^4.0.1",
+    "grunt-cli": "*",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-jsbeautifier": "^0.2.10",
+    "http-server": "0.8.5",
+    "jasmine-core": "^2.4.1",
+    "jquery": "^2.2.3",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha": "^0.2.2",
+    "requirejs": "^2.2.0"
+  }
+}

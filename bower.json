@@ -1,0 +1,10 @@
+{
+  "name": "bullsfirst",
+  "version": "0.0.1",
+  "description": "Test Assignment",
+  "main": "bulls-first.js",
+  "private": true,
+  "devDependencies": {
+    "angular": "<URL for angular bower mirror>"
+  }
+}
